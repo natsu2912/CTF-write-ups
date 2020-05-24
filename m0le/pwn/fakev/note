@@ -1,0 +1,8 @@
+out of bount(9) in get_index
+files[8] (file thu 9), stream pointer dc luu o stack, ta  co the dieu khien gia tri cua stream pointer va next node pointer o ham get_int()
+
+structure:
+stream: 0x8
+next:   0x8
+
+fclose() co the tao ra unsorted bin de leak libc
