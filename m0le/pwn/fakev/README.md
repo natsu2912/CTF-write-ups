@@ -9,7 +9,7 @@ note: This is just a quick writeup.
 
 ## II. Solution
 
-- Open 8 files, close them and read the first one for leaking heap and libc addresses.
+- Open 8 files, close them and read the first one (use after free) for leaking heap and libc addresses.
 
   ![](images/2.png)
 
